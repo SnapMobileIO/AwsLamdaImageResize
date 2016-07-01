@@ -1,0 +1,16 @@
+{
+  "name": "imageresize",
+  "version": "1.0.0",
+  "description": "AWS Lamda Image Resize Package",
+  "main": "imageResize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "aws-sdk": "^2.4.4",
+    "gm": "^1.22.0"
+  }
+}
