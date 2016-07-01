@@ -73,7 +73,7 @@ exports.handler = function(event, context, callback) {
     console.log("Source Key: " + srcKey);
 
     // Sanity check: validate that source and destination are different buckets.
-    if (srcBucket === dstBucket) {
+    if (dstKey === srcKey) {
       callback("Source and destination buckets are the same.");
       return;
     }
